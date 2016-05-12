@@ -2,6 +2,7 @@
   "name": "kodapor",
   "version": "1.0.0",
   "description": "Ruleset for Kodapor Facebook group",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "babel-node ./src/index.js",
