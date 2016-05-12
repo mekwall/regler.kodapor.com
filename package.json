@@ -4,6 +4,7 @@
   "description": "Website for kodapor",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marcus Ekwall <marcus.ekwall@gmail.com>",
