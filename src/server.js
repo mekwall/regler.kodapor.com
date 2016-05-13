@@ -22,10 +22,11 @@ export const getContent = function () {
   const content = `<!doctype html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Kodapor Regelverk v2.0">
-    <meta property="og:description" content="How much does culture influence creative thinking?">
-    <title>Kodapor Regelverk v2.0</title>
+    <meta property="og:title" content="Kodapornas Regelverk">
+    <meta property="og:description" content="Vilka regler som gäller för postande av inlägg och kommentarer.">
+    <title>Kodapornas Regelverk</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css">
     <style>
       ${styles}

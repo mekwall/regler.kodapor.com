@@ -1,6 +1,6 @@
-# Kodapor - Regelverk v2.0
+# Kodapornas Regelverk
 
-Kodapor är en grupp med väldigt många medlemmar och för att volymen ska bli hanterbar som möjligt så gallrar moderatorapor bland inläggen och utgår alltid från följande riktlinjer:
+Kodapor är en grupp med väldigt många medlemmar och för att volymen skall bli så hanterbar som möjligt så gallrar moderatorapor bland inläggen och utgår alltid från följande riktlinjer:
 
 > Ämnet skall ha **hög intellektuell nivå** och/eller vara **väldigt roligt**, och/eller **direkt intressant** för en absolut majoritet av medlemmarna.
 
@@ -9,7 +9,7 @@ Exempel på ämnen som **alltid blir borttagna**:
 - Enkäter som enbart gynnar frågeställaren
 - Snäva tekniska frågor som har ett objektivt rätt svar lämpar passar mycket bättre på [StackOverflow](https://stackoverflow.com/)
 - Säkerhetsluckor (som man inte först rapporterat till ägaren av problemet)
-- Diskussioner om vi redan haft flera ggr samma år
+- Diskussioner som vi redan haft flera gånger samma år
 - Frågor om framförallt fotboll, men även sport i allmänhet som inte innefattar kod
 
 Exempel på ämnen som **inte blir borttagna**:

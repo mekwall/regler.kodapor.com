@@ -1,11 +1,24 @@
+* {
+  box-sizing: inherit;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   line-height: 1.5;
+  background-color: #fafafa;
+  box-sizing: border-box;
 }
 
 #container {
-  margin: 0 auto;
+  margin: 40px auto 0 auto;
+  padding: 20px 40px;
+  background: #fff;
 }
 
 blockquote {
@@ -21,49 +34,50 @@ blockquote p {
 
 h1 {
   color: #3F51B5;
+  font-weight: 300;
+  margin-top: 0;
 }
 
-/* Handheld portrait */
-@media only screen and (min-width : 321px) {
-  body {
-
-  }
-
+/* Handheld */
+@media only screen and (max-width : 640px) {
   h1 {
     font-size: 28px;
-    font-weight: 400;
   }
 
   #container {
-    width: calc(100% - 20px);
+    margin-top: 0;
+    padding: 20px;
+    width: 100%;
   }
 
   blockquote {
     margin: 0;
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 }
 
-/* Handheld landscape */
-@media only screen and (max-width : 320px) {
-  h1 {
-    font-size: 28px;
-    font-weight: 400;
+/* Handheld */
+@media only screen and (min-width : 641px) and (max-width : 960px) {
+  #container {
+    margin-top: 0;
+    width: 90%;
   }
 
-  #container {
-    width: calc(100% - 40px);
+  h1 {
+    font-size: 2em;
+    line-height: 1.5;
   }
 
   blockquote {
     margin: 0;
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 }
 
 /* Lap landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   #container {
+    margin-top: 0;
     width: calc(100% - 80px);
   }
 
@@ -80,7 +94,6 @@ h1 {
 
   h1 {
     font-size: 3em;
-    font-weight: 300;
     line-height: 1.5;
   }
 
@@ -94,12 +107,5 @@ h1 {
 @media only screen  and (min-width: 1281px) {
   #container {
     width: 1024px;
-  }
-}
-
-/* Wall */
-@media only screen  and (min-width : 1824px) {
-  #container {
-    width: 1400px;
   }
 }
