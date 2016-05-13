@@ -119,3 +119,15 @@ h1 {
     width: 1024px;
   }
 }
+
+.text-never-allowed {
+  color: #D32F2F;
+}
+
+.text-sometimes-allowed {
+  color: #F57C00;
+}
+
+.text-always-allowed {
+  color: #4CAF50;
+}

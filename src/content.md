@@ -4,7 +4,7 @@ Kodapor är en Facebook-grupp med tusentals medlemmar. För att volymen skall bl
 
 > Ämnet som inlägget berör skall **inbjuda till diskussion**, hålla en **hög intellektuell nivå**, vara **väldigt roligt**, och/eller **direkt intressant** för en absolut majoritet av medlemmarna i gruppen.
 
-Exempel på ämnen som **alltid blir borttagna**:
+Exempel på ämnen som <span class="text-never-allowed">**alltid blir borttagna**</span>:
 - Jobbannonser (både som arbetgivare och arbetstagare)
 - Enkäter som enbart gynnar frågeställaren
 - Snäva tekniska frågor som har ett objektivt rätt svar lämpar passar mycket bättre på [StackOverflow](https://stackoverflow.com/)
@@ -12,15 +12,15 @@ Exempel på ämnen som **alltid blir borttagna**:
 - Diskussioner som vi redan haft flera gånger samma år
 - Frågor om framförallt fotboll, men även sport i allmänhet som inte innefattar kod
 
-Exempel på ämnen som **inte blir borttagna**:
+Exempel på ämnen som <span class="text-sometimes-allowed">**ofta blir borttagna**</span>:
+- Skojiga bilder/memes
+- Shaming (inspektera Nordeas ful-JavaScript)
+
+Exempel på ämnen som <span class="text-always-allowed">**inte blir borttagna**</span>:
 - Intressanta, öppna diskussioner om kod
 - Annonser om hackathons
 - Roliga hårdvaruhack
 - Överdumma diskussioner, t.ex. hur man designar ett så dåligt språk som möljligt
-
-Exempel på ämnen som **ofta blir borttagna**:
-- Skojiga bilder/memes
-- Shaming (inspektera Nordeas ful-JavaScript)
 
 ## Q&A
 
