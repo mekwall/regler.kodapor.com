@@ -6,7 +6,7 @@ Kodapor är en grupp med väldigt många medlemmar och för att volymen ska bli 
 
 Exempel på ämnen som **alltid blir borttagna**:
 - Jobbannonser (både som arbetgivare och arbetstagare)
-- Enkäter som framförallt är till för tillfrågaren
+- Enkäter som enbart gynnar frågeställaren
 - Snäva tekniska frågor som har ett objektivt rätt svar lämpar passar mycket bättre på [StackOverflow](https://stackoverflow.com/)
 - Säkerhetsluckor (som man inte först rapporterat till ägaren av problemet)
 - Diskussioner om vi redan haft flera ggr samma år
