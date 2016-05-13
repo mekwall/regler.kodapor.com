@@ -10,7 +10,7 @@ html, body {
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-  line-height: 1.5;
+  line-height: 1.6;
   background-color: #fafafa;
   box-sizing: border-box;
 }
@@ -24,6 +24,7 @@ body {
 
 blockquote {
   font-size: 1.8em;
+  line-height: 1.5;
   background-color: #3F51B5;
   color: #fff;
   padding: 20px;
@@ -31,6 +32,14 @@ blockquote {
 
 blockquote p {
   margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 1.5em 0 .5em 0;
+}
+
+* + p {
+  margin-top: .5em;
 }
 
 h1 {
