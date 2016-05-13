@@ -1,0 +1,105 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  line-height: 1.5;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+blockquote {
+  font-size: 1.8em;
+  background-color: #3F51B5;
+  color: #fff;
+  padding: 20px;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+h1 {
+  color: #3F51B5;
+}
+
+/* Handheld portrait */
+@media only screen and (min-width : 321px) {
+  body {
+
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  #container {
+    width: calc(100% - 20px);
+  }
+
+  blockquote {
+    margin: 0;
+    font-size: 1.4em;
+  }
+}
+
+/* Handheld landscape */
+@media only screen and (max-width : 320px) {
+  h1 {
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  #container {
+    width: calc(100% - 40px);
+  }
+
+  blockquote {
+    margin: 0;
+    font-size: 1.4em;
+  }
+}
+
+/* Lap landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  #container {
+    width: calc(100% - 80px);
+  }
+
+  blockquote {
+    margin: 40px;
+  }
+}
+
+/* Lap */
+@media only screen  and (min-width: 961px) {
+  #container {
+    width: 920px;
+  }
+
+  h1 {
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+
+  blockquote {
+    margin: 40px;
+    font-size: 1.8em;
+  }
+}
+
+/* Desk */
+@media only screen  and (min-width: 1281px) {
+  #container {
+    width: 1024px;
+  }
+}
+
+/* Wall */
+@media only screen  and (min-width : 1824px) {
+  #container {
+    width: 1400px;
+  }
+}

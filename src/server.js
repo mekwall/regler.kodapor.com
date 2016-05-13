@@ -3,29 +3,32 @@ import path from 'path';
 import Koa from 'koa';
 import Markdown from 'markdown-it';
 
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 const isDev = process.env.NODE_ENV === 'development';
 const srcDir = path.dirname(module.filename);
 
-export const md = new Markdown();
+export const md = new Markdown({
+  html: true,
+  linkify: true,
+  typographer: true,
+  quotes: '„“‚‘'
+});
 export const app = new Koa();
 
 export const getContent = function () {
   const mdContent = fs.readFileSync(path.join(srcDir, 'content.md')).toString();
+  const styles = fs.readFileSync(path.join(srcDir, 'styles.css').toString());
   const mdParsed = md.render(mdContent);
-  const content = `<doctype html>
+  const content = `<!doctype html>
   <head>
     <meta charset="utf-8">
-    <title>Kodapor</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700" rel="stylesheet" type="text/css">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Kodapor Regelverk v2.0">
+    <meta property="og:description" content="How much does culture influence creative thinking?">
+    <title>Kodapor Regelverk v2.0</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css">
     <style>
-      body {
-        font-family: "Source Sans Pro", sans-serif;
-      }
-
-      #container {
-        width: 920px;
-        margin: 0 auto;
-      }
+      ${styles}
     </style>
   </head>
   <body>
@@ -58,7 +61,7 @@ app.use((ctx) => {
     // Ok
     ctx.set('ETag', ETag);
     ctx.type = 'html';
-    ctx.body =  isDev && contentCache ? getContent() : contentCache;
+    ctx.body =  isDev || !contentCache ? getContent() : contentCache;
     return;
   }
   // Not found
