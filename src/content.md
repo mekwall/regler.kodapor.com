@@ -1,8 +1,8 @@
 # Kodapornas Regelverk
 
-Kodapor är en Facebook-grupp med tusentals medlemmar. För att volymen skall bli så hanterbar som möjligt så gallrar moderatorapor bland inläggen och utgår då från detta regelverk i sin bedömning.
+Kodapor är en Facebook-grupp med tusentals medlemmar. För att volymen skall bli så hanterbar som möjligt så gallrar moderatorapor bland inläggen och utgår från detta regelverk i sin bedömning.
 
-> Ämnet som inlägget berör skall hålla en **hög intellektuell nivå**, vara **väldigt roligt**, och/eller **direkt intressant** för en absolut majoritet av medlemmarna i gruppen.
+> Ämnet som inlägget berör skall **inbjuda till diskussion**, hålla en **hög intellektuell nivå**, vara **väldigt roligt**, och/eller **direkt intressant** för en absolut majoritet av medlemmarna i gruppen.
 
 Exempel på ämnen som **alltid blir borttagna**:
 - Jobbannonser (både som arbetgivare och arbetstagare)
