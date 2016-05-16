@@ -26,7 +26,7 @@ export const getContent = function () {
     <meta property="og:type" content="website">
     <meta property="og:title" content="Kodapornas Regelverk">
     <meta property="og:description" content="Vilka regler som gäller för postande av inlägg och kommentarer.">
-    <meta property="og:image" content="https://scontent.xx.fbcdn.net/v/t1.0-9/10336660_10152437670910937_8324642510881315351_n.jpg?oh=e5f442d6effa2f31f946dc8a376227e6&oe=57E38D9E">
+    <meta property="og:image" content="http://i.mekwall.se/ZQGRkZ94.jpg">
     <title>Kodapornas Regelverk</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css">
     <style>
