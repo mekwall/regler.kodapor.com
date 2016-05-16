@@ -44,24 +44,28 @@ export const getContent = function () {
 }
 
 var contentCache;
-var ETag;
+var eTag;
 
 app.init = function () {
   contentCache = getContent();
-  ETag = Date.now();
+  eTag = Date.now();
   return this;
 };
 
 app.use((ctx) => {
   if (ctx.method === 'GET' && ctx.url === '/') {
-    if (!isDev && parseInt(ctx.headers['if-none-match'], 10) === ETag) {
+    if (!isDev && parseInt(ctx.header['if-none-match'], 0) === eTag) {
       // Not modified
       ctx.status = 304;
       ctx.res.end();
       return;
     }
     // Ok
-    ctx.set('ETag', ETag);
+    if (isDev) {
+      ctx.set('X-Is-Development', true);
+    } else {
+      ctx.set('ETag', eTag);
+    }
     ctx.type = 'html';
     ctx.body =  isDev || !contentCache ? getContent() : contentCache;
     return;
