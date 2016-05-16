@@ -48,6 +48,15 @@ h1 {
   margin-top: 0;
 }
 
+hr {
+  margin: 2em 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)
+  );
+}
+
 /* Handheld */
 @media only screen and (max-width : 640px) {
   h1 {
@@ -130,4 +139,8 @@ h1 {
 
 .text-always-allowed {
   color: #4CAF50;
+}
+
+.align-center {
+  text-align: center;
 }
