@@ -55,3 +55,7 @@ Vi söker dig som är en bra balans mellan:
 - Att styra och att medla, med övervikt på att medla
 
 Vi kvoterar inte, men det är jävligt meriterande om du inte är vit man i 30-årsåldern som programmerar Angular.
+
+<hr>
+
+<p class="align-center">För eventuella frågor, förslag till förbättring och/eller ändringar, besök <a href="https://github.com/mekwall/regler.kodapor.com">projektet på GitHub</a>.</p>
