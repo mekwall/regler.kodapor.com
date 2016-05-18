@@ -3,7 +3,7 @@ import path from 'path';
 import Koa from 'koa';
 import Markdown from 'markdown-it';
 
-process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+process.env.NODE_ENV = 'production'; //process.env.NODE_ENV || 'development';
 const isDev = process.env.NODE_ENV === 'development';
 const srcDir = path.dirname(module.filename);
 
@@ -62,11 +62,17 @@ app.init = function () {
 
 app.use((ctx) => {
   if (ctx.method === 'GET' && ctx.url === '/') {
+    let isModifiedSince = ctx.headers['if-modified-since'] &&
+      lastModified > new Date(ctx.headers['if-modified-since']);
+    if (!isDev && lastModified) {
+      ctx.status = 304;
+      return;
+    }
     // Ok
     if (isDev) {
       ctx.set('X-Is-Development', true);
     } else {
-      ctx.set('Cache-Control', 'max-age=0, public');
+      ctx.set('Cache-Control', 'public');
       ctx.set('Last-Modified', lastModified);
     }
     ctx.type = 'html';
