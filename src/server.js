@@ -72,6 +72,7 @@ app.use((ctx) => {
     if (isDev) {
       ctx.set('X-Is-Development', true);
     } else {
+      ctx.set('Cache-Control', 'max-age=0, public');
       ctx.set('ETag', eTag);
     }
     ctx.type = 'html';
