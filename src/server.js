@@ -52,28 +52,22 @@ export const getContent = function () {
 }
 
 var contentCache;
-var eTag;
+var lastModified;
 
 app.init = function () {
   contentCache = getContent();
-  eTag = Date.now();
+  lastModified = new Date();
   return this;
 };
 
 app.use((ctx) => {
   if (ctx.method === 'GET' && ctx.url === '/') {
-    if (!isDev && parseInt(ctx.header['if-none-match'], 0) === eTag) {
-      // Not modified
-      ctx.status = 304;
-      ctx.res.end();
-      return;
-    }
     // Ok
     if (isDev) {
       ctx.set('X-Is-Development', true);
     } else {
       ctx.set('Cache-Control', 'max-age=0, public');
-      ctx.set('ETag', eTag);
+      ctx.set('Last-Modified', lastModified);
     }
     ctx.type = 'html';
     ctx.body =  isDev || !contentCache ? getContent() : contentCache;
