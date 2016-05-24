@@ -1,11 +1,12 @@
 {
   "name": "kodapor-regleverk",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Ruleset for Kodapor Facebook group",
   "private": true,
   "main": "./src/index.js",
   "scripts": {
     "start": "babel-node ./src/index.js",
+    "build": "babel-node ./src/build.js",
     "test": "ava test -v --require babel-register"
   },
   "author": "Marcus Ekwall <marcus.ekwall@gmail.com>",
