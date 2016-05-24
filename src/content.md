@@ -58,7 +58,7 @@ Vi kvoterar inte, men det är jävligt meriterande om du inte är vit man i 30-�
 
 ### Q: Finns det någon chat eller IRC för kodapor?
 
-Jajamensan, en del kodapor diskuterar kod och hänger tillsammans dagarna långa i IRC-kanalen `##kodapor` (ja, det ska vara två hashtecken) på IRC-näteverket [freenode](http://freenode.net/).
+Jajamensan, en del kodapor diskuterar kod och hänger tillsammans dagarna långa i IRC-kanalen `##kodapor` (ja, det ska vara två hashtecken) på IRC-nätverket [freenode](http://freenode.net/).
 
 Du går enkelt med där via deras [web chat](http://webchat.freenode.net/) eller med din egna favoritklient för IRC.
 
