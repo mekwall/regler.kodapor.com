@@ -1,4 +1,4 @@
-import app from './server';
+import app from './app';
 
 var PORT = process.env.PORT || 3131;
 app.init().listen(PORT, function () {

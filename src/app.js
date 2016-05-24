@@ -4,8 +4,11 @@ import Koa from 'koa';
 import Markdown from 'markdown-it';
 
 process.env.NODE_ENV = 'production'; //process.env.NODE_ENV || 'development';
-const isDev = process.env.NODE_ENV === 'development';
-const srcDir = path.dirname(module.filename);
+export const isDev = process.env.NODE_ENV === 'development';
+export const srcDir = path.dirname(module.filename);
+export const distDir = path.resolve(srcDir, '../dist');
+export const cssFile = path.join(srcDir, 'styles.css');
+export const markdownFile = path.join(srcDir, 'content.md');
 
 export const md = new Markdown({
   html: true,
@@ -16,8 +19,8 @@ export const md = new Markdown({
 export const app = new Koa();
 
 export const getContent = function () {
-  const mdContent = fs.readFileSync(path.join(srcDir, 'content.md')).toString();
-  const styles = fs.readFileSync(path.join(srcDir, 'styles.css').toString());
+  const mdContent = fs.readFileSync(markdownFile).toString();
+  const styles = fs.readFileSync(cssFile).toString();
   const mdParsed = md.render(mdContent);
   const content = `<!doctype html>
   <head>
@@ -29,9 +32,7 @@ export const getContent = function () {
     <meta property="og:image" content="http://i.mekwall.se/ZQGRkZ94.jpg">
     <title>Kodapornas Regelverk</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css">
-    <style>
-      ${styles}
-    </style>
+    <link href="styles.css" rel="stylesheet" type="text/css">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
