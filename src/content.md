@@ -56,6 +56,12 @@ Vi söker dig som är en bra balans mellan:
 
 Vi kvoterar inte, men det är jävligt meriterande om du inte är vit man i 30-årsåldern som programmerar Angular.
 
+### Q: Finns det någon chat eller IRC för kodapor?
+
+Jajamensan, en del kodapor diskuterar kod och hänger tillsammans dagarna långa i IRC-kanalen `##kodapor` (ja, det ska vara två hashtecken) på IRC-näteverket [freenode](http://freenode.net/).
+
+Du går enkelt med där via deras [web chat](http://webchat.freenode.net/) eller med din egna favoritklient för IRC.
+
 <hr>
 
 <p class="align-center">För eventuella frågor, förslag till förbättring och/eller ändringar, besök <a href="https://github.com/mekwall/regler.kodapor.com">projektet på GitHub</a>.</p>
