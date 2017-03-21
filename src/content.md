@@ -5,7 +5,7 @@ Kodapor är en Facebook-grupp med tusentals medlemmar. För att volymen skall bl
 > Ämnet som inlägget berör skall **inbjuda till diskussion**, hålla en **hög intellektuell nivå**, vara **väldigt roligt**, och/eller **direkt intressant** för en absolut majoritet av medlemmarna i gruppen.
 
 Exempel på ämnen som <span class="text-never-allowed">**alltid blir borttagna**</span>:
-- Jobbannonser (både som arbetgivare och arbetstagare)
+- Jobbannonser (både som arbetsgivare och arbetstagare)
 - Enkäter som enbart gynnar frågeställaren
 - Snäva tekniska frågor som har ett objektivt rätt svar lämpar passar mycket bättre på [StackOverflow](https://stackoverflow.com/)
 - Säkerhetsluckor (som man inte först rapporterat till ägaren av problemet)
@@ -20,7 +20,7 @@ Exempel på ämnen som <span class="text-always-allowed">**inte blir borttagna**
 - Intressanta, öppna diskussioner om kod
 - Annonser om hackathons
 - Roliga hårdvaruhack
-- Överdumma diskussioner, t.ex. hur man designar ett så dåligt språk som möljligt
+- Överdumma diskussioner, t.ex. hur man designar ett så dåligt språk som möjligt
 
 ## Q&A
 
@@ -34,10 +34,10 @@ Våra riktlinjer för att göra detta är dessa:
 Kodapor är (eller aspirerar till att bli) professionella programmerare, och iträder den rollen på forumet så väl som på sin dagliga arbetsplats. Kodapor uppskattar idioti och ogillar torrhet, men låter inte detta bli en ursäkt för att råka bli vulgär, dömande, intolerant eller exkluderande.
 
 #### Förståelse framför retorik
-En kodapa försöker att tolka välvilligt snarare än illivlligt, och söker ömsesidigt lärande framför att "vinna" en diskussion.
+En kodapa försöker att tolka välvilligt snarare än illvilligt, och söker ömsesidigt lärande framför att "vinna" en diskussion.
 
 #### Humor över allvar
-En Kodapa är ödjuk inför universums absurditet, bjuder på sig själv, och tycker inte att en diskussion är fullständig om man inte haft roligt medans man fört den. Bajs.
+En Kodapa är ödmjuk inför universums absurditet, bjuder på sig själv, och tycker inte att en diskussion är fullständig om man inte haft roligt medan man fört den. Bajs.
 
 ### Q: Vem söker ni som moderatorapa?
 
@@ -49,7 +49,7 @@ Moderatorapor får inget betalt, men Kodapor är ett välkänt forum i Sverige. 
 
 Vi söker dig som är en bra balans mellan:
 - Humoristisk och allvarlig, med övervikt på humoristisk
-- Pragmastisk och idealistisk, med övervikt på pragmatisk
+- Pragmatisk och idealistisk, med övervikt på pragmatisk
 - Att göra rätt och att vara överens, med övervikt på vara överens
 - Att vara trevlig och ärlig, med övervikt på trevlig
 - Att styra och att medla, med övervikt på att medla
