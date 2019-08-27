@@ -23,7 +23,7 @@
 <h1>Kodapornas Regelverk</h1>
 
 <p>
-  Kodapor är en Facebook-grupp med tusentals medlemmar. För att volymen skall
+  Kodapor är en Facebook-grupp med tiotusentals medlemmar. För att volymen skall
   bli så hanterbar som möjligt så gallrar moderatorapor bland inläggen och utgår
   från detta regelverk i sin bedömning.
 </p>
