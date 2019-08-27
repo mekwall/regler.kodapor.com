@@ -6,7 +6,7 @@ Det här repot innehåller källkoden till [regler.kodapor.com](https://regler.k
 
 Klona ut repot och kör sedan:
 
-```bash
+```shell
 $ npm install --save-dev
-$ npm start
+$ npm run dev
 ```

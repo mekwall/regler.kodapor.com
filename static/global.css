@@ -1,0 +1,108 @@
+* {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  line-height: 1.6;
+  background-color: #fafafa;
+  box-sizing: border-box;
+}
+
+blockquote {
+  font-size: 1.8em;
+  line-height: 1.5;
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 20px;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 1.5em 0 0.5em 0;
+}
+
+* + p {
+  margin-top: 0.5em;
+}
+
+h1 {
+  color: #3f51b5;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+hr {
+  margin: 2em 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+/* Handheld */
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  blockquote {
+    margin: 0;
+    font-size: 1.2em;
+  }
+}
+
+/* Handheld */
+@media only screen and (min-width: 641px) and (max-width: 960px) {
+  h1 {
+    font-size: 2em;
+    line-height: 1.5;
+  }
+
+  blockquote {
+    margin: 0;
+    font-size: 1.5em;
+  }
+}
+
+/* Lap landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  blockquote {
+    margin: 40px;
+  }
+}
+
+/* Lap */
+@media only screen and (min-width: 961px) {
+  h1 {
+    font-size: 3em;
+    line-height: 1.5;
+  }
+
+  blockquote {
+    margin: 40px;
+    font-size: 1.8em;
+  }
+}
+
+.align-center {
+  text-align: center;
+}

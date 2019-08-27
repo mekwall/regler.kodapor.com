@@ -1,0 +1,11 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "files.autoSave": "afterDelay",
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "html.format.preserveNewLines": true,
+  "html.format.indentInnerHtml": false,
+  "html.format.enable": false,
+  "svelte-intellisense.trace.server": "messages",
+  "svelte.plugin.html.enable": false
+}
