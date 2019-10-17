@@ -2,6 +2,7 @@
   "name": "regler.kodapor.com",
   "version": 2,
   "scope": "kodapor",
+  "regions": ["arn"],
   "github": {
     "enabled": true
   }
