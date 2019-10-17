@@ -139,7 +139,7 @@
 </ul>
 <p>
   Vi kvoterar inte, men det är jävligt meriterande om du inte är vit man i
-  30-årsåldern som programmerar Angular.
+  30-40 årsåldern som programmerar React.
 </p>
 
 <h3>Q: Finns det någon chat eller IRC för kodapor?</h3>
