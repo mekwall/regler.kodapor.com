@@ -1,7 +1,6 @@
 {
   "name": "regler.kodapor.com",
   "version": 2,
-  "alias": ["regler.kodapor.com"],
   "scope": "kodapor",
   "github": {
     "enabled": true
