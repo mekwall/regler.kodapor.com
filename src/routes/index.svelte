@@ -46,7 +46,7 @@
   <li>Jobbannonser (både som arbetsgivare och arbetstagare)</li>
   <li>Enkäter som enbart gynnar frågeställaren</li>
   <li>
-    Snäva tekniska frågor som har ett objektivt rätt svar lämpar passar mycket
+    Snäva tekniska frågor som har ett objektivt rätt svar. Dessa passar mycket
     bättre på <a href="https://www.stackoverflow.com/">StackOverflow</a>
   </li>
   <li>
@@ -113,7 +113,7 @@
 
 <h3>Q: Vem söker ni som moderatorapa?</h3>
 <p>
-  A: Vi behöver nästan alltid fler moderatorapor. Om du har förslag på ett
+  A: Vi behöver nästan alltid fler moderatorapor. Om du har förslag på en
   rättrådig apa som skulle passa, skicka då tipset i ett PM till en
   moderatorapa.
 </p>
@@ -121,12 +121,12 @@
   En moderator förväntas lägga åtminstone 45 minuter i veckan. I praktiken är
   din uppgift att godkänna/avslå inlägg enligt ovanstående riktlinjer och din
   egen goda smak, samt hålla ordning på forumet. Oftast innebär detta bara att
-  vara rak och trevlig och skön och väldigt sällan att du faktiskt behöver
+  vara rak, trevlig och skön och väldigt sällan att du faktiskt behöver
   använda någon av dina faktiska krafter som moderatorapa.
 </p>
 <p>
   Moderatorapor får inget betalt, men Kodapor är ett välkänt forum i Sverige.
-  Andra moderatorapor agerar gärna gladeligen referens vid jobbansökningar och
+  Andra moderatorapor agerar gladeligen referens vid jobbansökningar och
   dylikt.
 </p>
 <p>Vi söker dig som är en bra balans mellan:</p>
