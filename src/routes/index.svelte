@@ -147,11 +147,11 @@
   Det finns en inofficiell kanal för Kodapor (
   <code>##kodapor</code>
   ) på IRC-nätverket
-  <a href="http://freenode.net/">freenode</a>
+  <a href="https://libera.chat/">Libera</a>
   .
 </p>
 <p>
   Använd
-  <a href="https://webchat.freenode.net">freenode webchat</a>
+  <a href="https://web.libera.chat">Libera Webchat</a>
   eller din egna favoritklient.
 </p>
